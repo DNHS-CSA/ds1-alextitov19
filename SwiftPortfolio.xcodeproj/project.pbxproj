@@ -8,19 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		B5BD6412A847679508CE6B49 /* Pods_SwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DF2936F8ADCF6D2BED1C0 /* Pods_SwiftPortfolio.framework */; };
-		EA34BD6B2417FF6700CA2E7D /* Storyboards in Resources */ = {isa = PBXBuildFile; fileRef = EA34BD6A2417FF6700CA2E7D /* Storyboards */; };
 		EAB1E5CF24169E0600992B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5CE24169E0600992B0E /* AppDelegate.swift */; };
 		EAB1E5D124169E0600992B0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5D024169E0600992B0E /* SceneDelegate.swift */; };
 		EAB1E5D324169E0600992B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5D224169E0600992B0E /* ViewController.swift */; };
 		EAB1E5D624169E0600992B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB1E5D424169E0600992B0E /* Main.storyboard */; };
 		EAB1E5D824169E0800992B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB1E5D724169E0800992B0E /* Assets.xcassets */; };
 		EAB1E5DB24169E0800992B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB1E5D924169E0800992B0E /* LaunchScreen.storyboard */; };
+		EAFEF26224193B7400606561 /* PythController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFEF26124193B7400606561 /* PythController.swift */; };
+		EAFEF26D24193CB600606561 /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26324193CB500606561 /* Slider.storyboard */; };
+		EAFEF26E24193CB600606561 /* WordReverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26424193CB500606561 /* WordReverse.storyboard */; };
+		EAFEF26F24193CB600606561 /* Histogram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26524193CB500606561 /* Histogram.storyboard */; };
+		EAFEF27024193CB600606561 /* Pythagoreas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26624193CB500606561 /* Pythagoreas.storyboard */; };
+		EAFEF27124193CB600606561 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26724193CB500606561 /* Calculator.storyboard */; };
+		EAFEF27224193CB600606561 /* Translate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26824193CB500606561 /* Translate.storyboard */; };
+		EAFEF27324193CB600606561 /* Square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26924193CB600606561 /* Square.storyboard */; };
+		EAFEF27424193CB600606561 /* FileIO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26A24193CB600606561 /* FileIO.storyboard */; };
+		EAFEF27524193CB600606561 /* Reverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26B24193CB600606561 /* Reverse.storyboard */; };
+		EAFEF27624193CB600606561 /* Golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFEF26C24193CB600606561 /* Golf.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37F09CB319AD820037E9D744 /* Pods-SwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA22FE38D7E18F73C47639B /* Pods-SwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
-		EA34BD6A2417FF6700CA2E7D /* Storyboards */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Storyboards; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards"; sourceTree = "<group>"; };
 		EAB1E5CB24169E0600992B0E /* SwiftPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB1E5CE24169E0600992B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAB1E5D024169E0600992B0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +38,17 @@
 		EAB1E5D724169E0800992B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB1E5DA24169E0800992B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAB1E5DC24169E0800992B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFEF26124193B7400606561 /* PythController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythController.swift; sourceTree = "<group>"; };
+		EAFEF26324193CB500606561 /* Slider.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Slider.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Slider.storyboard"; sourceTree = "<group>"; };
+		EAFEF26424193CB500606561 /* WordReverse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = WordReverse.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/WordReverse.storyboard"; sourceTree = "<group>"; };
+		EAFEF26524193CB500606561 /* Histogram.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Histogram.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Histogram.storyboard"; sourceTree = "<group>"; };
+		EAFEF26624193CB500606561 /* Pythagoreas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pythagoreas.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Pythagoreas.storyboard"; sourceTree = "<group>"; };
+		EAFEF26724193CB500606561 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Calculator.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Calculator.storyboard"; sourceTree = "<group>"; };
+		EAFEF26824193CB500606561 /* Translate.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Translate.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Translate.storyboard"; sourceTree = "<group>"; };
+		EAFEF26924193CB600606561 /* Square.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Square.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Square.storyboard"; sourceTree = "<group>"; };
+		EAFEF26A24193CB600606561 /* FileIO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FileIO.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/FileIO.storyboard"; sourceTree = "<group>"; };
+		EAFEF26B24193CB600606561 /* Reverse.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Reverse.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Reverse.storyboard"; sourceTree = "<group>"; };
+		EAFEF26C24193CB600606561 /* Golf.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Golf.storyboard; path = "../../../Documents/p1fx-alextitov19/Final/Storyboards/Golf.storyboard"; sourceTree = "<group>"; };
 		F10DF2936F8ADCF6D2BED1C0 /* Pods_SwiftPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,9 +103,19 @@
 			isa = PBXGroup;
 			children = (
 				EAB1E5CE24169E0600992B0E /* AppDelegate.swift */,
-				EA34BD6A2417FF6700CA2E7D /* Storyboards */,
 				EAB1E5D024169E0600992B0E /* SceneDelegate.swift */,
+				EAFEF26724193CB500606561 /* Calculator.storyboard */,
+				EAFEF26A24193CB600606561 /* FileIO.storyboard */,
+				EAFEF26C24193CB600606561 /* Golf.storyboard */,
+				EAFEF26524193CB500606561 /* Histogram.storyboard */,
+				EAFEF26624193CB500606561 /* Pythagoreas.storyboard */,
+				EAFEF26B24193CB600606561 /* Reverse.storyboard */,
+				EAFEF26324193CB500606561 /* Slider.storyboard */,
+				EAFEF26924193CB600606561 /* Square.storyboard */,
+				EAFEF26824193CB500606561 /* Translate.storyboard */,
+				EAFEF26424193CB500606561 /* WordReverse.storyboard */,
 				EAB1E5D224169E0600992B0E /* ViewController.swift */,
+				EAFEF26124193B7400606561 /* PythController.swift */,
 				EAB1E5D424169E0600992B0E /* Main.storyboard */,
 				EAB1E5D724169E0800992B0E /* Assets.xcassets */,
 				EAB1E5D924169E0800992B0E /* LaunchScreen.storyboard */,
@@ -155,9 +185,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB1E5DB24169E0800992B0E /* LaunchScreen.storyboard in Resources */,
+				EAFEF26F24193CB600606561 /* Histogram.storyboard in Resources */,
 				EAB1E5D824169E0800992B0E /* Assets.xcassets in Resources */,
 				EAB1E5D624169E0600992B0E /* Main.storyboard in Resources */,
-				EA34BD6B2417FF6700CA2E7D /* Storyboards in Resources */,
+				EAFEF27024193CB600606561 /* Pythagoreas.storyboard in Resources */,
+				EAFEF26E24193CB600606561 /* WordReverse.storyboard in Resources */,
+				EAFEF27224193CB600606561 /* Translate.storyboard in Resources */,
+				EAFEF27424193CB600606561 /* FileIO.storyboard in Resources */,
+				EAFEF27124193CB600606561 /* Calculator.storyboard in Resources */,
+				EAFEF27624193CB600606561 /* Golf.storyboard in Resources */,
+				EAFEF27524193CB600606561 /* Reverse.storyboard in Resources */,
+				EAFEF27324193CB600606561 /* Square.storyboard in Resources */,
+				EAFEF26D24193CB600606561 /* Slider.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFEF26224193B7400606561 /* PythController.swift in Sources */,
 				EAB1E5D324169E0600992B0E /* ViewController.swift in Sources */,
 				EAB1E5CF24169E0600992B0E /* AppDelegate.swift in Sources */,
 				EAB1E5D124169E0600992B0E /* SceneDelegate.swift in Sources */,
