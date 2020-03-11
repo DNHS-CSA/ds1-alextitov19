@@ -20,6 +20,14 @@ class PythController: UIViewController {
     
     
     func findHyp(){
+        guard let _: Double = Double(sideATextField.text!) else {
+            NSLog("side A is not a number value")
+            return
+        }
+        guard let _: Double = Double(sideBTextField.text!) else {
+            NSLog("side B is not a number value")
+            return
+        }
         sides.0 = Double(sideATextField.text!)!
         sides.1 = Double(sideBTextField.text!)!
         sides.2 = sqrt(sides.0 * sides.0 + sides.1 * sides.1)
