@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5BD6412A847679508CE6B49 /* Pods_SwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DF2936F8ADCF6D2BED1C0 /* Pods_SwiftPortfolio.framework */; };
+		EA1704FF241A917800D8C578 /* SquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1704FE241A917800D8C578 /* SquareController.swift */; };
 		EAB1E5CF24169E0600992B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5CE24169E0600992B0E /* AppDelegate.swift */; };
 		EAB1E5D124169E0600992B0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5D024169E0600992B0E /* SceneDelegate.swift */; };
 		EAB1E5D324169E0600992B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1E5D224169E0600992B0E /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		37F09CB319AD820037E9D744 /* Pods-SwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA22FE38D7E18F73C47639B /* Pods-SwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		EA1704FE241A917800D8C578 /* SquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareController.swift; sourceTree = "<group>"; };
 		EAB1E5CB24169E0600992B0E /* SwiftPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB1E5CE24169E0600992B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAB1E5D024169E0600992B0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA170500241A931600D8C578 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAB1E5D224169E0600992B0E /* ViewController.swift */,
+				EAFEF26124193B7400606561 /* PythController.swift */,
+				EA1704FE241A917800D8C578 /* SquareController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		EAB1E5C224169E0600992B0E = {
 			isa = PBXGroup;
 			children = (
@@ -108,15 +120,14 @@
 				EAFEF26A24193CB600606561 /* FileIO.storyboard */,
 				EAFEF26C24193CB600606561 /* Golf.storyboard */,
 				EAFEF26524193CB500606561 /* Histogram.storyboard */,
-				EAFEF26624193CB500606561 /* Pythagoreas.storyboard */,
 				EAFEF26B24193CB600606561 /* Reverse.storyboard */,
 				EAFEF26324193CB500606561 /* Slider.storyboard */,
-				EAFEF26924193CB600606561 /* Square.storyboard */,
 				EAFEF26824193CB500606561 /* Translate.storyboard */,
 				EAFEF26424193CB500606561 /* WordReverse.storyboard */,
-				EAB1E5D224169E0600992B0E /* ViewController.swift */,
-				EAFEF26124193B7400606561 /* PythController.swift */,
+				EAFEF26624193CB500606561 /* Pythagoreas.storyboard */,
+				EAFEF26924193CB600606561 /* Square.storyboard */,
 				EAB1E5D424169E0600992B0E /* Main.storyboard */,
+				EA170500241A931600D8C578 /* ViewControllers */,
 				EAB1E5D724169E0800992B0E /* Assets.xcassets */,
 				EAB1E5D924169E0800992B0E /* LaunchScreen.storyboard */,
 				EAB1E5DC24169E0800992B0E /* Info.plist */,
@@ -249,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1704FF241A917800D8C578 /* SquareController.swift in Sources */,
 				EAFEF26224193B7400606561 /* PythController.swift in Sources */,
 				EAB1E5D324169E0600992B0E /* ViewController.swift in Sources */,
 				EAB1E5CF24169E0600992B0E /* AppDelegate.swift in Sources */,

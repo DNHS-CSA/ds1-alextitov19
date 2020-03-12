@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="af8-9D-goh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Slider Controller-->
+        <scene sceneID="Bt5-2P-IFV">
+            <objects>
+                <viewController id="af8-9D-goh" customClass="SliderController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rzi-hm-x1d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="112.5" minValue="0.0" maxValue="225" translatesAutoresizingMaskIntoConstraints="NO" id="uDe-BE-snd">
+                                <rect key="frame" x="18" y="203" width="378" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="SliderValueChanged:" destination="af8-9D-goh" eventType="valueChanged" id="obm-qZ-2wP"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="112.5" minValue="0.0" maxValue="225" translatesAutoresizingMaskIntoConstraints="NO" id="xEx-VZ-qpw">
+                                <rect key="frame" x="18" y="344" width="378" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="SliderValueChanged:" destination="af8-9D-goh" eventType="valueChanged" id="hd7-IJ-d1G"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="112.5" minValue="0.0" maxValue="225" translatesAutoresizingMaskIntoConstraints="NO" id="CFa-HP-7n9">
+                                <rect key="frame" x="18" y="482" width="378" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="SliderValueChanged:" destination="af8-9D-goh" eventType="valueChanged" id="Ypz-Ro-fpt"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="P4B-QH-Ejr">
+                                <rect key="frame" x="18" y="654" width="378" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="SliderValueChanged:" destination="af8-9D-goh" eventType="valueChanged" id="VLX-0H-JnY"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6hp-mi-G5R">
+                                <rect key="frame" x="167" y="731" width="81" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TtZ-IQ-pBl" kind="show" id="yEc-2q-dRz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h07-jG-nWD"/>
+                    </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="CFa-HP-7n9" id="TFf-eO-VC3"/>
+                        <outlet property="greenSlider" destination="xEx-VZ-qpw" id="iN3-Xw-wDN"/>
+                        <outlet property="redSlider" destination="uDe-BE-snd" id="dFu-rf-PRe"/>
+                        <outlet property="transSlider" destination="P4B-QH-Ejr" id="PSv-RF-QHh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Alg-Gv-npG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.739130434782609" y="113.83928571428571"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="imW-tb-uMy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="TtZ-IQ-pBl" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RQf-Ve-K5M"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xvX-Ox-78F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="582"/>
+        </scene>
+    </scenes>
+</document>
