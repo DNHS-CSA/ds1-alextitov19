@@ -17,7 +17,7 @@ class SquareController: UIViewController {
     @IBOutlet weak var areaLabel: UILabel!
     @IBOutlet weak var perimeterLabel: UILabel!
     
-    var  attributes = (0.0, 0.0, 0.0, 0.0)
+    var  attributes = (A: 0.0, B: 0.0, area: 0.0, perimeter: 0.0)
     
     func calculateAttributes() {
          guard let _: Double = Double(sideATextField.text!) else {
@@ -28,10 +28,10 @@ class SquareController: UIViewController {
             NSLog("side B is not a number value")
             return
         }
-        attributes.0 = Double(sideATextField.text!)!
-        attributes.1 = Double(sideBTextField.text!)!
-        attributes.2 = attributes.0 * attributes.1
-        attributes.3 = 2 * (attributes.0 + attributes.1)
+        attributes.A = Double(sideATextField.text!)!
+        attributes.B = Double(sideBTextField.text!)!
+        attributes.area = attributes.0 * attributes.1
+        attributes.perimeter = 2 * (attributes.0 + attributes.1)
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {

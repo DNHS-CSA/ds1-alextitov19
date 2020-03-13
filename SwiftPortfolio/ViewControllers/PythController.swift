@@ -16,7 +16,7 @@ class PythController: UIViewController {
     
     @IBOutlet weak var answerLabel: UILabel!
     
-    var sides = (0.0,0.0,0.0)
+    var sides = (A: 0.0, B: 0.0, C: 0.0)
     
     
     func findHyp(){
@@ -28,9 +28,9 @@ class PythController: UIViewController {
             NSLog("side B is not a number value")
             return
         }
-        sides.0 = Double(sideATextField.text!)!
-        sides.1 = Double(sideBTextField.text!)!
-        sides.2 = sqrt(sides.0 * sides.0 + sides.1 * sides.1)
+        sides.A = Double(sideATextField.text!)!
+        sides.B = Double(sideBTextField.text!)!
+        sides.C = sqrt(sides.0 * sides.0 + sides.1 * sides.1)
     }
     
     @IBAction func calculateButtonPressed(_ sender: UIButton) {
