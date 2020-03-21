@@ -46,10 +46,10 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="136.60714285714286"/>
         </scene>
-        <!--Pythagoreas-->
+        <!--Pyth-->
         <scene sceneID="0Z8-o6-bK1">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Pyth" storyboardName="Pythagoreas" id="C6M-uZ-RHm" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="Pyth" storyboardName="Pyth" id="C6M-uZ-RHm" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="CWU-kb-VFc"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YR9-QH-AwA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
